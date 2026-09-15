@@ -10,7 +10,8 @@ Shows country-level data over time, driven entirely by a JSON config file — no
 ```
 https://www.eriksberg.no/Maps/World
 https://www.eriksberg.no/Maps/World?config=https://raw.githubusercontent.com/YOUR_ORG/YOUR_REPO/main/mapconfig.json
-https://www.eriksberg.no/Maps/World?config=https://raw.githubusercontent.com/eriksoeb/test/main/test.json
+https://www.eriksberg.no/Maps/World?config=https://raw.githubusercontent.com/eriksoeb/worldmap/main/test.json
+https://www.eriksberg.no/Maps/World?config=https://raw.githubusercontent.com/eriksoeb/worldmap/main/allyears.json
 ```
 
 Replace the config URL with your own (see [Hosting your config](#hosting-your-config)).
