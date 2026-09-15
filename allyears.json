@@ -1,0 +1,373 @@
+{
+  "title": "@216 International Development — All Countries",
+  "subtitle": "216@SSB 1992-2026",
+  "titleFontSize": 0,
+  "subtitleFontSize": 22,
+
+  "map": {
+    "borderWidth": 0.5,
+    "borderColor": "#aaaaaa"
+  },
+
+  "zoom": {
+    "center": [38, 19],
+    "default": 2.2,
+    "min": 2,
+    "max": 5
+  },
+
+  "interval": {
+    "from": 2026,
+    "to": 2026
+  },
+
+  "freq": {
+    "name": "Year"
+  },
+
+  "current_period_title": {
+    "show": false,
+    "prefix": "",
+    "suffix": "",
+    "fontSize": 250,
+    "color": "#aaaaaa",
+    "opacity": 44,
+    "font": "Helvetica",
+    "position": "top"
+  },
+
+  "opacity": {
+    "name": "Complete - not in use currently",
+    "suffix": "%"
+  },
+
+  "url": {
+    "name": "NSO link"
+  },
+
+  "url2": {
+    "name": "Extra link"
+  },
+
+  "types": {
+    "3": { "role": "ssb.no",  "color": "yellow" },
+    "1": { "role": "Country program", "color": "#27ae60" },
+    "2": { "role": "Thematic projects", "color": "#e67e22" }
+  },
+
+  "countries": {
+    "UA": {
+      "url": "https://stat.gov.ua/en",
+      "url2": "https://www.lv.ukrstat.gov.ua/eng/menu_site.php",
+      "comment": "War with Russia\nfrom 2023 and still counting..",
+      "name": "Ukraine",
+      "source": "ukraine.json",
+      "years": {
+        "2026": { "type": 1, "opacity": 44 }
+      }
+    },
+    "MA": {
+      "name": "Marokko",
+      "source": "custom",
+      "years": {
+        "2026": { "type": 2, "opacity": 44 }
+      }
+    },
+    "ET": {
+      "name": "Ethiopia",
+      "years": {
+        "2026": { "type": 1, "opacity": 44 }
+      }
+    },
+    "SD": {
+      "name": "Sudan",
+      "years": {
+        "2026": { "type": 1, "opacity": 44 }
+      }
+    },
+    "MZ": {
+      "name": "Mozambique",
+      "years": {
+        "2026": { "type": 1, "opacity": 44 }
+      }
+    },
+    "NP": {
+      "name": "Nepal",
+      "years": {
+        "2026": { "type": 1, "opacity": 44 }
+      }
+    },
+    "ID": {
+      "name": "Indonesia",
+      "years": {
+        "2026": { "type": 1, "opacity": 44 }
+      }
+    },
+    "GH": {
+      "name": "Ghana",
+      "years": {
+        "2026": { "type": 1, "opacity": 44 }
+      }
+    },
+    "ZW": {
+      "name": "Zimbabwe",
+      "years": {
+        "2026": { "type": 1, "opacity": 44 }
+      }
+    },
+    "MW": {
+      "name": "Malawi",
+      "years": {
+        "2026": { "type": 1, "opacity": 44 }
+      }
+    },
+    "NA": {
+      "name": "Namibia",
+      "years": {
+        "2026": { "type": 1, "opacity": 44 }
+      }
+    },
+    "NO": {
+      "name": "Norway",
+      "url": "https://www.ssb.no/en/omssb/ssbs-virksomhet/statistikk-som-bistand",
+      "url2": "https://www.ssb.no/en/omssb/ssbs-virksomhet/statistikk-som-bistand",
+      "years": {
+        "2026": { "type": 3, "opacity": 44 }
+      }
+    },
+    "UG": {
+      "name": "Uganda",
+      "years": {
+        "2026": { "type": 1, "opacity": 44 }
+      }
+    },
+    "KE": {
+      "name": "Kenya",
+      "years": {
+        "2026": { "type": 2, "opacity": 44 }
+      }
+    },
+    "ZM": {
+      "name": "Zambia",
+      "years": {
+        "2026": { "type": 1, "opacity": 44 }
+      }
+    },
+    "TZ": {
+      "name": "United Republic of Tanzania",
+      "years": {
+        "2026": { "type": 2, "opacity": 44 }
+      }
+    },
+    "AL": {
+      "name": "Albania",
+      "years": {
+        "2026": { "type": 2, "opacity": 44 }
+      }
+    },
+    "SG": {
+      "name": "Singapore",
+      "years": {
+        "2026": { "type": 2, "opacity": 44 }
+      }
+    },
+    "BN": {
+      "name": "Brunei Darussalam",
+      "years": {
+        "2026": { "type": 2, "opacity": 44 }
+      }
+    },
+    "LA": {
+      "name": "Lao People's Democratic Republic",
+      "years": {
+        "2026": { "type": 2, "opacity": 44 }
+      }
+    },
+    "VN": {
+      "name": "Vietnam",
+      "years": {
+        "2026": { "type": 2, "opacity": 44 }
+      }
+    },
+    "MY": {
+      "name": "Malaysia",
+      "years": {
+        "2026": { "type": 2, "opacity": 44 }
+      }
+    },
+    "KH": {
+      "name": "Cambodia",
+      "years": {
+        "2026": { "type": 2, "opacity": 44 }
+      }
+    },
+    "SC": {
+      "name": "Seychelles",
+      "years": {
+        "2026": { "type": 2, "opacity": 44 }
+      }
+    },
+    "SZ": {
+      "name": "eSwatini",
+      "years": {
+        "2026": { "type": 1, "opacity": 44 }
+      }
+    },
+    "UY": {
+      "name": "Uruguay",
+      "years": {
+        "2026": { "type": 1, "opacity": 44 }
+      }
+    },
+    "MN": {
+      "name": "Mongolia",
+      "years": {
+        "2026": { "type": 1, "opacity": 44 }
+      }
+    },
+    "BW": {
+      "name": "Botswana",
+      "years": {
+        "2026": { "type": 1, "opacity": 44 }
+      }
+    },
+    "LS": {
+      "name": "Lesotho",
+      "years": {
+        "2026": { "type": 2, "opacity": 44 }
+      }
+    },
+    "SO": {
+      "name": "Somalia",
+      "years": {
+        "2026": { "type": 1, "opacity": 44 }
+      }
+    },
+    "SS": {
+      "name": "South Sudan",
+      "years": {
+        "2026": { "type": 1, "opacity": 44 }
+      }
+    },
+    "ZA": {
+      "name": "South Africa",
+      "years": {
+        "2026": { "type": 1, "opacity": 44 }
+      }
+    },
+    "MG": {
+      "name": "Madagascar",
+      "years": {
+        "2026": { "type": 2, "opacity": 44 }
+      }
+    },
+    "CM": {
+      "name": "Cameroon",
+      "years": {
+        "2026": { "type": 2, "opacity": 44 }
+      }
+    },
+    "JM": {
+      "name": "Jamaica",
+      "years": {
+        "2026": { "type": 2, "opacity": 44 }
+      }
+    },
+    "JO": {
+      "name": "Jordan",
+      "years": {
+        "2026": { "type": 2, "opacity": 44 }
+      }
+    },
+    "ER": {
+      "name": "Eritrea",
+      "years": {
+        "2026": { "type": 1, "opacity": 44 }
+      }
+    },
+    "PS": {
+      "name": "Palestine",
+      "years": {
+        "2026": { "type": 1, "opacity": 44 }
+      }
+    },
+    "EE": {
+      "name": "Estonia",
+      "years": {
+        "2026": { "type": 1, "opacity": 44 }
+      }
+    },
+    "LV": {
+      "name": "Latvia",
+      "years": {
+        "2026": { "type": 1, "opacity": 44 }
+      }
+    },
+    "LT": {
+      "name": "Lithuania",
+      "years": {
+        "2026": { "type": 1, "opacity": 44 }
+      }
+    },
+    "AO": {
+      "name": "Angola",
+      "years": {
+        "2026": { "type": 1, "opacity": 44 }
+      }
+    },
+    "CN": {
+      "name": "China",
+      "years": {
+        "2026": { "type": 1, "opacity": 44 }
+      }
+    },
+    "MD": {
+      "name": "Republic of Moldova",
+      "years": {
+        "2026": { "type": 1, "opacity": 44 }
+      }
+    },
+    "NI": {
+      "name": "Nicaragua",
+      "years": {
+        "2026": { "type": 1, "opacity": 44 }
+      }
+    },
+    "KZ": {
+      "name": "Kazakhstan",
+      "years": {
+        "2026": { "type": 1, "opacity": 44 }
+      }
+    },
+    "KG": {
+      "name": "Kyrgyzstan",
+      "years": {
+        "2026": { "type": 2, "opacity": 44 }
+      }
+    },
+    "TJ": {
+      "name": "Tajikistan",
+      "years": {
+        "2026": { "type": 1, "opacity": 44 }
+      }
+    },
+    "BO": {
+      "name": "Bolivia (Plurinational State of)",
+      "years": {
+        "2026": { "type": 1, "opacity": 44 }
+      }
+    },
+    "CU": {
+      "name": "Cuba",
+      "years": {
+        "2026": { "type": 1, "opacity": 44 }
+      }
+    },
+    "BJ": {
+      "name": "Benin",
+      "years": {
+        "2026": { "type": 1, "opacity": 44 }
+      }
+    }
+  }
+}
